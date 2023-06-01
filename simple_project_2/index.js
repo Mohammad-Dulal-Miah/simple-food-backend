@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000
 
 //MongoDb atlas
 
-const uri = 'mongodb+srv://admin:admin@cluster0.t7rgz1u.mongodb.net/?retryWrites=true&w=majority'
+
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
